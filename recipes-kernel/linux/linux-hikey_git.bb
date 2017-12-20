@@ -27,7 +27,6 @@ SRC_URI_append_hikey = " \
     file://0009-gpu-arm-fix-dma_ops-build-error.patch \
     file://0001-mali-dma-mapping-use-unsigned-long-for-dma_attrs.patch \
     file://0002-Mali-replace-page_cache_release-with-put_page.patch \
-    file://0001-gpu-arm-mali-Disable-PM_RUNTIME-support-in-r7p0.patch \
 "
 
 SRC_URI[mali.md5sum] = "49a03a4e765cfe5e87cccfdef97f9208"
